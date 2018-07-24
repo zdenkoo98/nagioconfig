@@ -48,7 +48,7 @@ cfg_file=/usr/local/nagios/etc/objects/localhost.cfg
 # extension) in a particular directory by using the cfg_dir
 # directive as shown below:
 
-cfg_dir=/usr/local/nagios/etc/servers
+#cfg_dir=/usr/local/nagios/etc/servers
 #cfg_dir=/usr/local/nagios/etc/printers
 #cfg_dir=/usr/local/nagios/etc/switches
 #cfg_dir=/usr/local/nagios/etc/routers
@@ -1066,7 +1066,7 @@ additional_freshness_latency=15
 # Values: 1 = enable flap detection
 #         0 = disable flap detection (default)
 
-enable_flap_detection=0
+enable_flap_detection=1
 
 
 
